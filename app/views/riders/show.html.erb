@@ -1,0 +1,7 @@
+<h1> <%= @rider.name %> </h1>
+<ul> <li> Age: <%= @rider.age %> </li>
+<% @rollercoasters.each do |roll| %>
+  <li><%= roll.name %></li>
+<% end %>
+</ul>
+
